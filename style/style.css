@@ -274,7 +274,7 @@
 }
 
 .foot{
-  gap:123px;
+  gap:50px;
 }
 
 
@@ -297,26 +297,23 @@
 
 }
 
-.frfrfr{
 
-}
-
-.frfrfr > h4{
-  width:80%;
+.catin > h4{
+  width:53%;
+  padding-bottom:30px;
   margin-bottom:55px;
-
+  border-bottom:1px solid #EFEFEF;
 }
 
-.frfr{
+.catinul{
 display: flex;
 flex-direction:column;
+min-width: 250px;
 }
 
-.forhfour{
-  border-bottom:1px;
-}
-
-
+/* .frfr > h4{
+  border-bottom:1px solid #EFEFEF;
+} */
 
 .footer-mid-item{
   display: flex;
