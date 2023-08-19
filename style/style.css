@@ -1,4 +1,11 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto';
+  list-style-type: none;
+  text-decoration: none;
 
+}
 .grey-bg{
   background-color: #EFEFEF;
 }
@@ -88,26 +95,29 @@
   color:#fff;
 }
 .superchair p{
-  margin:50px;
   max-width:308px;
+}
+.schairin{
+  display:flex;
+  flex-direction:column;
+  gap:30px;
   margin-left:405px;
 }
 .superchaircapin{
   color: #FFF;
-  font-family: Roboto;
   font-size: 48px;
   font-weight: 700;
-  margin-left:405px;
+
 }
 
 .schairbtn{
   color:#fff;
-  text-decoration: none;
   border-radius: 40px;
   border: 2px solid #FFF;
   background: var(--accent, #F13C6E); 
   padding:10px 15px;
-  margin-left:405px;
+  max-width:40px;
+
 }
 
 .offers{
@@ -170,6 +180,7 @@
 
 .card-container{
   display: flex;
+  padding-top:100px;
   gap: 30px;
   justify-content: center;
 }
@@ -189,7 +200,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 25px;
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
 .card-tittle{
@@ -263,14 +274,11 @@
 }
 
 .foot{
-  gap:203px;
+  gap:123px;
 }
 
-.categories> h4{
-  margin-bottom:55px;
-}
 
-.categories > a{
+.cat-item{
   margin-bottom: 20px;
   color:#828282;
   font-family: Roboto;
@@ -284,18 +292,43 @@
   display: flex;
   flex-direction:column;
   align-items:center;
-   border:1px solid #EFEFEF;
   padding:0px;
   background-color: #fff;
 
 }
 
+.frfrfr{
+
+}
+
+.frfrfr > h4{
+  width:80%;
+  margin-bottom:55px;
+
+}
+
+.frfr{
+display: flex;
+flex-direction:column;
+}
+
+.forhfour{
+  border-bottom:1px;
+}
+
+
+
 .footer-mid-item{
   display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin-left:5%;
+  justify-content: space-around;
+
 }
+
+.footer-mid-item-right{
+  display: flex;
+  gap:15px;
+}
+
 
 .footer-btm{
   display:flex;
@@ -307,8 +340,7 @@
   font-weight: 400;
   line-height: normal; 
   background-color: #EFEFEF;
-  width: 90%;
-  margin-left:5%;
+  justify-content: space-around;
 }
 
 .footer-btm a{
