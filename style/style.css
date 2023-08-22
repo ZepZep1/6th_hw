@@ -193,6 +193,7 @@
 .card-body{
   display:flex;
   align-items: center;
+  gap:15px;
 }
 
 .text-container{
@@ -200,7 +201,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 25px;
-  margin: 50px 0;
+
 }
 
 .card-tittle{
@@ -248,7 +249,7 @@
 }
 
 .impuls{
-  padding: 100px;
+  padding:20px 100px 0px 100px;
 }
 
 .impulsul{
@@ -264,19 +265,23 @@
 }
 
 .impuls-imgs{
-  padding: 70px;
+  padding: 35px 60px;
   border-bottom:1px solid #EFEFEF;
-  max-width:100px;
+  max-width:149px;
 }
 
 .bg-whiteul{
-  padding: 100px;
+  padding: 60px 0px 55px 0px;
 }
 
 .foot{
   gap:50px;
 }
 
+.bg-white{
+  border-top: 1px solid #EFEFEF;
+  padding:60px 0 60px;
+}
 
 .cat-item{
   margin-bottom: 20px;
@@ -297,12 +302,16 @@
 
 }
 
-
-.catin > h4{
-  width:53%;
+.underlinecat{
   padding-bottom:30px;
-  margin-bottom:55px;
+  margin-bottom:25px;
   border-bottom:1px solid #EFEFEF;
+}
+
+.underlinecat > h4{
+  width:53%;
+
+  /* border-bottom:1px solid #EFEFEF; */
 }
 
 .catinul{
@@ -314,6 +323,8 @@ min-width: 250px;
 /* .frfr > h4{
   border-bottom:1px solid #EFEFEF;
 } */
+
+
 
 .footer-mid-item{
   display: flex;
@@ -338,6 +349,7 @@ min-width: 250px;
   line-height: normal; 
   background-color: #EFEFEF;
   justify-content: space-around;
+  padding:25px 0 25px 0;
 }
 
 .footer-btm a{
